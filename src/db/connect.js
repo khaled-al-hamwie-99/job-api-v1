@@ -1,3 +1,4 @@
+require('./setEnvironment')
 const mongoose = require('mongoose')
 
 const connectDB = (url) => {
